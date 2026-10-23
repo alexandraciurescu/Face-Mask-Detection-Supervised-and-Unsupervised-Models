@@ -1,6 +1,3 @@
-# Face-Mask-Detection-Supervised-and-Unsupervised-Models
-
-
 # Face Mask Detection: Supervised Classification & Unsupervised Clustering
 
 A comparative machine learning project exploring **supervised classification** and **unsupervised clustering** of face images with and without masks.
