@@ -4,8 +4,6 @@ A comparative machine learning project exploring **supervised classification** a
 
 The project evaluates how two handcrafted visual feature representations—**Histogram of Oriented Gradients (HOG)** and **SIFT + Bag of Visual Words (BoVW)**—affect the performance of classical machine learning algorithms.
 
-The experiments were developed as two projects for the **Practical Machine Learning** course.
-
 ## Project Overview
 
 The goal is to distinguish between images of people **wearing a face mask (`WithMask`)** and **not wearing a face mask (`WithoutMask`)** through two complementary approaches:
