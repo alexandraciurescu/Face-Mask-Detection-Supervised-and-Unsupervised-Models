@@ -89,32 +89,3 @@ Because Agglomerative Clustering does not provide a built-in `predict()` method 
 **Best result:** Agglomerative Clustering with **Ward linkage, Euclidean distance, two clusters, and HOG features** achieved a **test ARI of 0.7867**.
 
 Inspection of representative and misclustered images suggested that image blur, pixelation, tight cropping, and additional edges around faces could affect cluster assignments.
-
-## Key Findings
-
-1. **Feature representation mattered substantially:** HOG outperformed SIFT/BoVW across both supervised and unsupervised experiments.
-
-2. **Classical supervised methods performed strongly:** Logistic Regression and SVM both reached **98.09% test accuracy** with HOG features.
-
-3. **Unsupervised learning recovered meaningful structure:** Hierarchical Clustering achieved **0.7867 test ARI** without class labels during clustering.
-
-4. **The learning setting changes the interpretation of results:** Classification accuracy and ARI measure different objectives and should not be compared as though they were the same metric.
-
-## Technologies & Methods
-
-**Python · scikit-learn · OpenCV/SIFT · HOG · Logistic Regression · SVM · K-Means · Agglomerative Clustering · Hyperparameter Tuning · Image Preprocessing**
-
-## Documentation
-
-The project was documented in two reports:
-
-- **Project 1:** *Supervised Classification of Face Mask Images using Logistic Regression and SVM*
-- **Project 2:** *Face Mask Images Clustering using K-Means and Agglomerative Hierarchical Clustering*
-
-The reports contain additional implementation details, hyperparameter-tuning plots, confusion matrices, and examples of clustered images.
-
-## Notes
-
-- The dataset is publicly available on Kaggle.
-- Reported results reflect the experimental settings and original dataset splits described above.
-- Comparisons against external studies with different splits or preprocessing are not necessarily directly equivalent.
